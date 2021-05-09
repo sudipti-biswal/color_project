@@ -1,0 +1,44 @@
+.hero {
+  background: #000000;
+  background: linear-gradient(to right, #161616, #000000);
+   padding: 150px 0;
+}
+
+.hero_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  height: 90%;
+  text-align: center;
+  padding:30px;
+
+  .hero_heading {
+  font-size: 100px;
+  margin-bottom: 24px;
+  color: #fff;
+
+  span {
+  background: linear-gradient( to right,  #ff6a00, #ee0979);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -mo-text-fill-color: transparent;
+}
+}
+.hero-description{
+  font-size: 60px;
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #9114ff,#da22ff ); 
+  background: linear-gradient(to right,#8f0eff, #da22ff );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+	}
